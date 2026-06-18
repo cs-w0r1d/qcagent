@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets & API keys
+.env
+*.key
+*.pem
+
+# Data files (do NOT push large data)
+*.svs
+*.ndpi
+*.tiff
+*.tif
+*.h5
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+
+# Output directories
+qc_results/
+qc_results*/
+qc_retrieved_patches/
+patho_r1_results/
+eval_results.json
+eval_results*.json
+eval_results*.csv
+eval_results*.txt
+eval_unified_results.csv
+
+# Data symlinks and files (DO NOT track large data)
+data/reports_batch_TCGA
+data/features_conch_v1
+data/patches
+data/TCGA-STAD
+data/tcga_stad_reports
+data/tcga_reports_cleaned.csv
+data/slide_list_*.txt
+data/qc_results_1
+
+# Logs
+*.log
+wandb/
+
+# Local runtime configs
+.env.local
+
+# Publication artifacts (not part of OSS release)
+1286_paper.pdf
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model checkpoints (if downloaded locally)
+models/
+checkpoints/
